@@ -1,0 +1,186 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  color: aliceblue;
+  font-family: sans-serif;
+}
+
+.container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.584), rgba(0, 0, 0, 0.616)),
+    url(https://blogs.bcm.edu/wp-content/uploads/2019/12/barbell-lifting-photo-cropped.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  gap: 100px;
+}
+
+nav {
+  padding: 2% 6%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 35px;
+}
+.navbar {
+  background-color: rgba(185, 155, 8, 0.808);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.logo span {
+  color: rgb(192, 122, 31);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: auto;
+}
+
+nav ul li {
+  margin: 0 35px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+.social a {
+  margin: 0 10px;
+}
+
+nav ul li a:hover {
+  color: rgb(212, 211, 234);
+}
+
+nav ul li a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: rgb(36, 35, 34);
+  transition: 0.8s;
+}
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+.social a i {
+  transition: 0.5s;
+}
+
+.social a i:hover {
+  color: blue;
+}
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main h2 {
+  font-size: 70px;
+  text-transform: uppercase;
+}
+
+.main h1 {
+  font-size: 120px;
+  color: chocolate;
+  text-transform: uppercase;
+}
+
+.buttom {
+  text-decoration: none;
+  border: 1px solid orangered;
+  padding: 15px 35px;
+  margin-top: 45px;
+  transition: 0.5s;
+  border-radius: 25px;
+}
+.buttom:hover {
+  background-color: rgba(85, 85, 22, 0.831);
+}
+
+.main-container {
+    background-repeat: no-repeat;
+    background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.584), rgba(0, 0, 0, 0.616)),
+    url(https://miro.medium.com/max/13700/1*EryqSki_uBD0zyi4UvUmoA.jpeg);
+}
+.plane {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.pp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 400px;
+  margin-top: 10%;
+}
+
+button {
+  background-color: rgba(20, 20, 17, 0.856);
+  color: rgb(209, 204, 199);
+  padding: 12px 35px;
+  font-size: 20px;
+  border: none;
+  transition: 0.5s;
+  border-radius: 15px;
+}
+button:hover {
+  background-color: rgba(146, 41, 41, 0.779);
+  color: white;
+}
+
+.one {
+  background-image: linear-gradient(
+      rgba(191, 176, 176, 0.584),
+      rgba(16, 15, 15, 0.616)
+    ),
+    url("https://weighteasyloss.com/wp-content/uploads/2018/03/12-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 25px;
+}
+
+.two {
+  background-image: linear-gradient(
+      rgba(191, 176, 176, 0.584),
+      rgba(21, 20, 20, 0.616)
+    ),
+    url("https://i.pinimg.com/originals/5d/55/ef/5d55ef1d857a76cdb4819cf851918874.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 25px;
+}
+
+.three {
+  background-image: linear-gradient(
+      rgba(191, 176, 176, 0.584),
+      rgba(17, 17, 17, 0.616)
+    ),
+    url("https://i.pinimg.com/originals/48/3d/10/483d10478451b4a9572fa1f5f9a712c4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 25px;
+}
